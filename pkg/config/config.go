@@ -17,37 +17,6 @@
 // Package config - define a configuration used by CloudTest tool.
 package config
 
-type HardwareDeviceConfig struct {
-	HostName        string `yaml:"host-name"` // Host name with variable substitutions supported.
-	OperatingSystem string `yaml:"os"`        // Operating system
-	Name            string `yaml:"name"`      // Host name prefix, will create ENV variable IP_HostName
-}
-
-type FacilityDeviceConfig struct {
-	Plan         string `yaml:"plan"` // Plan
-	BillingCycle string `yaml:"billing-cycle"`
-
-	HardwareDeviceConfig `yaml:",inline"`
-}
-
-type HardwarePacketConfig struct {
-	HardwareDevices      []*HardwareDeviceConfig `yaml:"hardware-devices"`      // A set of device configuration required to be created before starting cluster.
-	HardwareReservations []string                `yaml:"hardware-reservations"` // A set of hardware reservations
-}
-
-type FacilityPacketConfig struct {
-	Devices           []*FacilityDeviceConfig `yaml:"devices"`            // A set of device configuration required to be created before starting cluster.
-	Facilities        []string                `yaml:"facilities"`         // A set of facility filters
-	PreferredFacility string                  `yaml:"preferred-facility"` // A preferred facility key
-}
-
-type PacketConfig struct {
-	SSHKey string `yaml:"ssh-key"` // A location of ssh key
-
-	HardwarePacketConfig `yaml:",inline"`
-	FacilityPacketConfig `yaml:",inline"`
-}
-
 type ClusterProviderConfig struct {
 	Name       string            `yaml:"name"`       // name of provider, GKE, Azure, etc.
 	Kind       string            `yaml:"kind"`       // register provider type, 'shell', 'packet'
