@@ -57,6 +57,13 @@ type FacilityPacketConfig struct {
 type PacketConfig struct {
 	SSHKey string `yaml:"ssh-key"` // A location of ssh key
 
-	HardwarePacketConfig
-	FacilityPacketConfig
+	HardwareDevices      []*HardwareDeviceConfig `yaml:"hardware-devices"`      // A set of device configuration required to be created before starting cluster.
+	HardwareReservations []string                `yaml:"hardware-reservations"` // A set of hardware reservations
+
+	Devices           []*FacilityDeviceConfig `yaml:"devices"`            // A set of device configuration required to be created before starting cluster.
+	Facilities        []string                `yaml:"facilities"`         // A set of facility filters
+	PreferredFacility string                  `yaml:"preferred-facility"` // A preferred facility key
+
+	//HardwarePacketConfig
+	//FacilityPacketConfig
 }
