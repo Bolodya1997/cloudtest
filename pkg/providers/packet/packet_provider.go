@@ -819,6 +819,8 @@ func (p *packetProvider) ValidateConfig(config *config.ClusterProviderConfig) er
 		return errors.New("packet configuration element should be specified")
 	}
 
+	logrus.Infof("Config: %+v", config.Packet)
+
 	isHardware := len(config.Packet.HardwareDevices) > 0
 	isFacility := len(config.Packet.Devices) > 0
 	if !isHardware && !isFacility {
