@@ -26,8 +26,8 @@ import (
 
 	"github.com/edwarnicke/exechelper"
 
-	"github.com/networkservicemesh/cloudtest/pkg/model"
-	"github.com/networkservicemesh/cloudtest/pkg/shell"
+	"github.com/Bolodya1997/cloudtest/pkg/model"
+	"github.com/Bolodya1997/cloudtest/pkg/shell"
 )
 
 type SuiteRunner struct {

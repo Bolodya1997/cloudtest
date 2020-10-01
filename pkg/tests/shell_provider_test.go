@@ -26,9 +26,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/networkservicemesh/cloudtest/pkg/commands"
-	"github.com/networkservicemesh/cloudtest/pkg/config"
-	"github.com/networkservicemesh/cloudtest/pkg/utils"
+	"github.com/Bolodya1997/cloudtest/pkg/commands"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/utils"
 )
 
 const (

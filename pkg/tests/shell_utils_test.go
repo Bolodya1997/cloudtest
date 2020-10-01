@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/utils"
+	"github.com/Bolodya1997/cloudtest/pkg/utils"
 )
 
 func TestVariableSubstitutions(t *testing.T) {

@@ -25,9 +25,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/networkservicemesh/cloudtest/pkg/model"
-	"github.com/networkservicemesh/cloudtest/pkg/shell"
-	"github.com/networkservicemesh/cloudtest/pkg/utils"
+	"github.com/Bolodya1997/cloudtest/pkg/model"
+	"github.com/Bolodya1997/cloudtest/pkg/shell"
+	"github.com/Bolodya1997/cloudtest/pkg/utils"
 )
 
 type shellTestRunner struct {

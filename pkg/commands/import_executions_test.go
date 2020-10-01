@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
 )
 
 func TestImportAll(t *testing.T) {

@@ -19,8 +19,8 @@ package tests
 import (
 	"context"
 
-	"github.com/networkservicemesh/cloudtest/pkg/config"
-	"github.com/networkservicemesh/cloudtest/pkg/k8s"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/k8s"
 )
 
 type TestValidationFactory struct {
