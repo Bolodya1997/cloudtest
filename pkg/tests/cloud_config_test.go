@@ -25,8 +25,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/networkservicemesh/cloudtest/pkg/commands"
-	"github.com/networkservicemesh/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/commands"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
 )
 
 func TestClusterConfiguration(t *testing.T) {

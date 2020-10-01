@@ -24,7 +24,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/suites"
+	"github.com/Bolodya1997/cloudtest/pkg/suites"
 )
 
 func TestFind(t *testing.T) {

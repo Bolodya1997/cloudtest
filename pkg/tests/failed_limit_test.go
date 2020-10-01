@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/commands"
-	"github.com/networkservicemesh/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/commands"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
 )
 
 func testConfig(failedTestLimit int, source *config.ExecutionSource) *config.CloudTestConfig {

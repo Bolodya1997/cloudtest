@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/commands"
-	"github.com/networkservicemesh/cloudtest/pkg/config"
-	"github.com/networkservicemesh/cloudtest/pkg/utils"
+	"github.com/Bolodya1997/cloudtest/pkg/commands"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/utils"
 )
 
 func TestAfterWorksCorrectly(t *testing.T) {

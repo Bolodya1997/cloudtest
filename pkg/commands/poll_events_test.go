@@ -25,13 +25,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cloudtest/pkg/utils"
+	"github.com/Bolodya1997/cloudtest/pkg/utils"
 
-	"github.com/networkservicemesh/cloudtest/pkg/execmanager"
+	"github.com/Bolodya1997/cloudtest/pkg/execmanager"
 
-	"github.com/networkservicemesh/cloudtest/pkg/model"
+	"github.com/Bolodya1997/cloudtest/pkg/model"
 
-	"github.com/networkservicemesh/cloudtest/pkg/config"
+	"github.com/Bolodya1997/cloudtest/pkg/config"
 )
 
 func TestUpdateTaskWithTimeout_ShouldNotCompleteTask(t *testing.T) {

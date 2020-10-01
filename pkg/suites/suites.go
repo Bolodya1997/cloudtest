@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/networkservicemesh/cloudtest/pkg/model"
+	"github.com/Bolodya1997/cloudtest/pkg/model"
 )
 
 const noneParseFlag = 0
